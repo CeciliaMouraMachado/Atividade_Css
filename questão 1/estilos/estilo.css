@@ -1,0 +1,35 @@
+
+/*Foi escolhido o Layout */
+body {
+    background-color: whitesmoke;
+  }
+
+p, li, tr {
+    font-style: bold;
+    width: 100%;
+    font-size: large;
+}
+
+h2{
+    border-left: 6px solid red;
+    font-style: oblique;
+}
+
+table, th, td {
+    border: 2px dotted;
+  }
+
+table{
+    border-style: dotted;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    width: 100%;
+}
+
+img
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
