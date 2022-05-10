@@ -6,7 +6,28 @@ html {
     font-size:10px;
     -webkit-tap-highlight-color:rgba(0,0,0,0);
     }
-    
+    .btn-cadastro {
+        position: relative;
+        z-index: 2;
+        background-color: transparent;
+        color: #67b168;
+        text-transform: uppercase;
+        border-radius: 6px;
+        border: 2px solid #fff;
+        background: #fff;
+        padding: 10px 15px;
+    }
+    .btn-acesso {
+        position: relative;
+        z-index: 2;
+        background-color: transparent;
+        color: #67b168;
+        text-transform: uppercase;
+        border-radius: 6px;
+        border: 2px solid #fff;
+        background: #fff;
+        padding: 10px 15px;
+    }
     body {
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height:1.42857143;
@@ -7663,18 +7684,6 @@ background-image:url(/img/badge-app-store.png);
 background-repeat:no-repeat;
 background-position:center;
 background-size:100% auto;
-}
-
-.btn-cadastro {
-position:relative;
-z-index:2;
-background-color:transparent;
-color:teal!important;
-text-transform:uppercase;
-border-radius:6px;
-border:2px solid #fff;
-background:#fff;
-padding:10px 15px;
 }
 
 .home-categorias .container {
